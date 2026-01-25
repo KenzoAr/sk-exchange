@@ -84,9 +84,9 @@ const toARS = blueRate && usdRate && clp ? (parseFloat(toUSD.replace(/\./g, "").
           ) : (
             <>
               <div className="text-lg font-semibold">USD: ${toUSD}</div>
-              <div className="text-lg font-semibold">ARS (Blue): ${toARS}</div>
+              <div className="text-lg font-semibold">ARS (Oficial): ${toARS}</div>
               <div className="text-sm text-gray-500 mt-2">
-  		Dólar Blue: ${blueRate || "N/A"}  
+  		Dólar Oficial: ${blueRate || "N/A"}  
   		<span className="block">Actualizado: {lastUpdate}</span>
 	     </div>
 
