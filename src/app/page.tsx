@@ -58,7 +58,7 @@ const toARS = blueRate && usdRate && clp ? (parseFloat(toUSD.replace(/\./g, "").
         style={{ fontFamily: 'Carter One, sans-serif', color: 'white' }}
         animate={{ scale: 1.1 }}
       >
-        Calculadora Stray Kids
+        Calculadora Stray Kids!
       </motion.h1>
       <Card className="w-full max-w-md p-4 bg-white">
         <CardContent className="flex flex-col gap-4">
